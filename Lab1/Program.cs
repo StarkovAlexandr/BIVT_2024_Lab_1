@@ -55,7 +55,10 @@ public class Program
         int answer = 0;
 
         // code here
-
+        for (int i = 2; i <= 35; i += 3)
+        {
+            answer += i;
+        }
         // end
 
         return answer;
@@ -65,7 +68,9 @@ public class Program
         double answer = 0;
 
         // code here
-
+        for (double i = 1; i <= 10; i++)
+            answer += 1.0 / i;
+        answer = Math.Round(answer, 2);
         // end
 
         return answer;
@@ -75,7 +80,9 @@ public class Program
         double answer = 0;
 
         // code here
-
+        for (int i = 2; i <= 112; i+=2)
+            answer += i / (i + 1.0);
+        answer = Math.Round(answer, 2);
         // end
 
         return answer;
@@ -85,7 +92,16 @@ public class Program
         double answer = 0;
 
         // code here
-
+        answer = Math.Cos(x);
+        double x1 = x;
+        if (x == 0)
+            return 0;
+        for (double i = 2; i <= 9; i++)
+        {
+            answer += Math.Cos(i * x) / x1;
+            x1 = x1 * x;
+        }
+        answer = Math.Round(answer, 2);
         // end
 
         return answer;
@@ -95,7 +111,10 @@ public class Program
         double answer = 0;
 
         // code here
-
+        answer = p * p;
+        for (double i = 1; i <= 9; i++)
+            answer += (p + h * i) * (p + h * i);
+        answer = Math.Round(answer, 2);
         // end
 
         return answer;
@@ -105,7 +124,8 @@ public class Program
         double answer = 0;
 
         // code here
-
+        answer = 0.5 * x * x - 7 * x;
+        answer = Math.Round(answer, 2);
         // end
 
         return answer;
@@ -115,7 +135,9 @@ public class Program
         int answer = 0;
 
         // code here
-
+        answer = 1;
+        for (int i = 1; i <= 6; i++)
+            answer *= i;
         // end
 
         return answer;
@@ -125,7 +147,13 @@ public class Program
         int answer = 0;
 
         // code here;
-
+        answer = 1;
+        int s = 1;
+        for (int i = 2; i <= 6; i++)
+        {
+            s *= i;
+            answer += s;
+        }
         // end
 
         return answer;
@@ -135,7 +163,18 @@ public class Program
         double answer = 0;
 
         // code here;
-
+        double k = -1;
+        double a = 5;
+        double z = 1;
+        answer = k * a / z;
+        for (double i = 2; i <= 6; i++)
+        {
+            a *= 5;
+            k *= -1;
+            z *= i;
+            answer += (k * a) / z;
+        }
+        answer = Math.Round(answer, 2);
         // end
 
         return answer;
@@ -145,7 +184,9 @@ public class Program
         int answer = 0;
 
         // code here
-
+        answer = 1;
+        for (int i = 1; i <= 7; i++)
+            answer *= 3;
         // end
 
         return answer;
@@ -153,7 +194,23 @@ public class Program
     public void Task_1_11()
     {
         // There is no test for this task
-
+        for (int i = 1; i <= 6; i++)
+        {
+            if (i < 6)
+                Console.Write(i + " ");
+            else
+            {
+                Console.Write(i);
+                Console.WriteLine();
+            }
+        }
+        for (int i = 1; i <= 6; i++)
+        {
+            if (i < 6)
+                Console.Write("5 ");
+            else
+                Console.Write("5");
+        }
         // code here
 
     }
@@ -162,7 +219,16 @@ public class Program
         double answer = 0;
 
         // code here
-
+        double x1 = x;
+        answer = 1;
+        if (x == 0)
+            return 0;
+        for (int i = 1; i <= 10; i++)
+        {
+            answer += 1.0 / x1;
+            x1 *= x;
+        }
+        answer = Math.Round(answer, 2);
         // end
 
         return answer;
@@ -172,7 +238,12 @@ public class Program
         double answer = 0;
 
         // code here
-
+        if (x <= -1)
+            answer = 1;
+        else if (x > -1 && x <= 1)
+            answer = -1 * x;
+        else if (x > 1)
+            answer = -1;
         // end
 
         return answer;
@@ -180,7 +251,17 @@ public class Program
     public void Task_1_14()
     {
         // There is no test for this task
-
+        int a1 = 1;
+        int a2 = 1;
+        Console.Write(a1 + " " + a2 + " ");
+        for (int i = 3; i <= 7; i++)
+        {
+            int temp = a2;
+            a2 += a1;
+            a1 = temp;
+            Console.Write(a2 + " ");
+        }
+        Console.Write(a2 + a1);
         // code here
 
     }
@@ -189,9 +270,21 @@ public class Program
         double answer = 0;
 
         // code here
-
+        double x1 = 1;
+        double y1 = 1;
+        double x2 = 2;
+        double y2 = 1;
+        for (int i = 3; i <= 5; i++)
+        {
+            double temp1 = x2;
+            double temp2 = y2;
+            x2 += x1;
+            y2 += y1;
+            x1 = temp1;
+            y1 = temp2;
+        }
         // end
-
+        answer = Math.Round((x2/y2), 2);
         return answer;
     }
     public (double, int) Task_1_16()
@@ -200,7 +293,20 @@ public class Program
         int power = 0;
 
         // code here
-
+        answer = 1;
+        double x = 1;
+        for (int i = 2; i <= 64; i++)
+        {
+            x *= 2;
+            answer += x;
+        }
+        answer /= 15;
+        while (answer >= 10)
+        {
+            answer /= 10;
+            power += 1;
+        }
+        answer = Math.Round(answer, 2);
         // end
 
         return (answer, power);
@@ -210,7 +316,9 @@ public class Program
         double answer = 0;
 
         // code here
-
+        int r = 6350;
+        answer = Math.Sqrt((r + x) * (r + x) - (r * r));
+        answer = Math.Round(answer, 2);
         // end
 
         return answer;
@@ -220,7 +328,10 @@ public class Program
         int answer = 0;
 
         // code here
-
+        int a = x / 3;
+        answer = 10;
+        for (int i = 1; i <= a; i++)
+            answer *= 2;
         // end
 
         return answer;
@@ -243,7 +354,14 @@ public class Program
         int answer = 0;
 
         // code here
-
+        int p = 1;
+        answer = 1;
+        while (p <= 30000)
+        {
+            answer += 3;
+            p *= answer;
+        }
+        answer -= 3;
         // end
 
         return answer;
@@ -263,7 +381,16 @@ public class Program
         double answer = 0;
 
         // code here
-
+        if (Math.Abs(x) == 1)
+            return 0;
+        double x1 = 1;
+        double e = 0.0001;
+        while (x1 >= e)
+        {
+            answer += x1;
+            x1 *= x * x;
+        }
+        answer = Math.Round(answer, 2);
         // end
 
         return answer;
@@ -283,7 +410,12 @@ public class Program
         int answer = 0;
 
         // code here
-
+        int i = 10;
+        while (i < 100000)
+        {
+            i *= 2;
+            answer += 3;
+        }
         // end
 
         return answer;
@@ -323,7 +455,12 @@ public class Program
         int answer = 0;
 
         // code here;
-
+        double i = 10000;
+        while (i < 20000)
+        {
+            i *= 1.08;
+            answer += 1;
+        }
         // end
 
         return answer;
@@ -343,7 +480,21 @@ public class Program
         int answer = 0;
 
         // code here;
-
+        double x1 = 1;
+        double y1 = 1;
+        double x2 = 2;
+        double y2 = 1;
+        answer = 2;
+        while(Math.Abs((x1 / y1) - (x2 / y2)) >= 0.001)
+        {
+            double temp1 = x2;
+            double temp2 = y2;
+            x2 += x1;
+            y2 += y1;
+            x1 = temp1;
+            y1 = temp2;
+            answer += 1;
+        }
         // end
 
         return answer;
@@ -406,7 +557,20 @@ public class Program
         double S = 0, y = 0;
 
         // code here
-
+        double k = 1;
+        double i = 1;
+        double x1 = x * x * x;
+        double a = 1;
+        while (Math.Abs(a) >= 0.0001)
+        {
+            a = k * x1 / (4 * i * i - 1);
+            S += a;
+            k *= -1;
+            x1 *= x * x;
+            i += 1;
+        }
+        S -= a;
+        y = (1 + x * x) * Math.Atan(x) / 2 - x / 2;
         // end
 
         return (S, y);

@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\BIVT_2024_Lab_1\\Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFE87B45-FF3A-4C53-93B1-7E45BC1324CB}|..\\1lab\\1lab.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\bivt_2024_lab_1\\1lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE889CE9-5D14-4E3D-9D3A-472C939C0678}|Lab1.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\bivt_2024_lab_1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE889CE9-5D14-4E3D-9D3A-472C939C0678}|Lab1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB7686F-4F0C-4681-B079-92D7BD90CEC2}|..\\Lab1Tests\\Lab1Tests.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\bivt_2024_lab_1\\lab1tests\\programtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE889CE9-5D14-4E3D-9D3A-472C939C0678}|Lab1.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\bivt_2024_lab_1\\lab1\\lab1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE889CE9-5D14-4E3D-9D3A-472C939C0678}|Lab1.csproj|solutionrelative:lab1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB7686F-4F0C-4681-B079-92D7BD90CEC2}|..\\Lab1Tests\\Lab1Tests.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\bivt_2024_lab_1\\lab1tests\\lab1tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lab1.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\BIVT_2024_Lab_1\\Lab1\\Lab1.csproj",
+              "RelativeDocumentMoniker": "Lab1.csproj",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\BIVT_2024_Lab_1\\Lab1\\Lab1.csproj",
+              "RelativeToolTip": "Lab1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-13T22:08:57.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\BIVT_2024_Lab_1\\1lab\\Program.cs",
+              "RelativeDocumentMoniker": "..\\1lab\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\BIVT_2024_Lab_1\\1lab\\Program.cs",
+              "RelativeToolTip": "..\\1lab\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T22:08:51.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\BIVT_2024_Lab_1\\Lab1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\BIVT_2024_Lab_1\\Lab1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEkCAAAAAAAAAAAiwDICAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T18:15:29.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProgramTests.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\BIVT_2024_Lab_1\\Lab1Tests\\ProgramTests.cs",
+              "RelativeDocumentMoniker": "..\\Lab1Tests\\ProgramTests.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\BIVT_2024_Lab_1\\Lab1Tests\\ProgramTests.cs",
+              "RelativeToolTip": "..\\Lab1Tests\\ProgramTests.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAIAwwKEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T18:10:34.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lab1Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\BIVT_2024_Lab_1\\Lab1Tests\\Lab1Tests.csproj",
+              "RelativeDocumentMoniker": "..\\Lab1Tests\\Lab1Tests.csproj",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Source\\Repos\\BIVT_2024_Lab_1\\Lab1Tests\\Lab1Tests.csproj",
+              "RelativeToolTip": "..\\Lab1Tests\\Lab1Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-13T17:56:20.118Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Markosias\\Documents\\BIVT-24\\Lab1\\Lab1.csproj": {}
+    "C:\\Users\\Александр\\source\\repos\\BIVT_2024_Lab_1\\Lab1\\Lab1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Markosias\\Documents\\BIVT-24\\Lab1\\Lab1.csproj": {
+    "C:\\Users\\Александр\\source\\repos\\BIVT_2024_Lab_1\\Lab1\\Lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Markosias\\Documents\\BIVT-24\\Lab1\\Lab1.csproj",
+        "projectUniqueName": "C:\\Users\\Александр\\source\\repos\\BIVT_2024_Lab_1\\Lab1\\Lab1.csproj",
         "projectName": "Lab1",
-        "projectPath": "C:\\Users\\Markosias\\Documents\\BIVT-24\\Lab1\\Lab1.csproj",
-        "packagesPath": "C:\\Users\\Markosias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Markosias\\Documents\\BIVT-24\\Lab1\\obj\\",
+        "projectPath": "C:\\Users\\Александр\\source\\repos\\BIVT_2024_Lab_1\\Lab1\\Lab1.csproj",
+        "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Александр\\source\\repos\\BIVT_2024_Lab_1\\Lab1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Markosias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Александр\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -43,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -64,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

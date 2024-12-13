@@ -1,0 +1,15 @@
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\bin\Debug\net8.0\1lab.exe
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\bin\Debug\net8.0\1lab.deps.json
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\bin\Debug\net8.0\1lab.runtimeconfig.json
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\bin\Debug\net8.0\1lab.dll
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\bin\Debug\net8.0\1lab.pdb
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\obj\Debug\net8.0\1lab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\obj\Debug\net8.0\1lab.AssemblyInfoInputs.cache
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\obj\Debug\net8.0\1lab.AssemblyInfo.cs
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\obj\Debug\net8.0\1lab.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\obj\Debug\net8.0\1lab.sourcelink.json
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\obj\Debug\net8.0\1lab.dll
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\obj\Debug\net8.0\refint\1lab.dll
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\obj\Debug\net8.0\1lab.pdb
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\obj\Debug\net8.0\1lab.genruntimeconfig.cache
+C:\Users\Александр\Source\Repos\BIVT_2024_Lab_1\1lab\obj\Debug\net8.0\ref\1lab.dll
